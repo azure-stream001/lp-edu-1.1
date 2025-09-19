@@ -1417,10 +1417,14 @@ h6 {
 @keyframes sparkle {
   0%,
   100% {
-    text-shadow: 0 0 5px currentColor;
+    text-shadow: 0 0 2px currentColor;
+  }
+  15%,
+  85% {
+    text-shadow: 0 0 3px currentColor;
   }
   50% {
-    text-shadow: 0 0 20px currentColor, 0 0 30px currentColor;
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
   }
 }
 
@@ -1687,7 +1691,7 @@ html {
   /* 2a. Remove Extra Space on the Right Side */
   /* This pulls the floating card back into the screen on tablets and phones to prevent horizontal scrolling. */
   .hero-image .magical-card {
-    right: 15px;
+    /* right: 15px; */
     top: 15px;
   }
 

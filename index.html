@@ -1,489 +1,346 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🌟 こども学習センター | 楽しく学ぼう！ 🌟</title>
+<html lang="ja" style="overflow-x: hidden">
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌟 こども学習センター | 楽しく学ぼう！ 🌟</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap"
+    rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar animate__animated animate__slideInDown"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#home">
-          <i class="fas fa-graduation-cap me-2 bounce-icon"></i>
-          <span class="rainbow-text">🌟 こども学習センター 🌟</span>
-        </a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link fun-link" href="#home">🏠 ホーム</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fun-link" href="#programs">📚 プログラム</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fun-link" href="#about">👨‍🏫 私たちについて</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fun-link" href="#testimonials">⭐ 体験談</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fun-link" href="#contact">📞 お問い合わせ</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="btn btn-primary text-white px-3 rounded-pill"
-                href="#contact"
-                >🎉 無料体験</a
-              >
-            </li>
-          </ul>
-        </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar animate__animated animate__slideInDown">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <i class="fas fa-graduation-cap me-2 bounce-icon"></i>
+        <span class="rainbow-text">🌟 こども学習センター 🌟</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fun-link" href="#home">🏠 ホーム</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fun-link" href="#programs">📚 プログラム</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fun-link" href="#about">👨‍🏫 私たちについて</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fun-link" href="#testimonials">⭐ 体験談</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fun-link" href="#contact">📞 お問い合わせ</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary text-white px-3 rounded-pill" href="#contact">🎉 無料体験</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section id="home" class="hero-section magical-bg">
-      <div class="container">
-        <div class="row align-items-center min-vh-100">
-          <div class="col-lg-6">
-            <div class="hero-content animate__animated animate__fadeInLeft">
-              <h1 class="hero-title rainbow-text-animated">
-                🌈 お子様の<span class="sparkle-text">未来</span
-                >を<br />一緒に築きましょう ✨
-              </h1>
-              <p class="hero-subtitle bounce-in-text">
-                🎯
-                楽しく学べる魔法の環境で、お子様の可能性を最大限に引き出します！🚀
-                個別指導から集団学習まで、ワクワクするプログラムをご用意しています。
-              </p>
-              <div class="hero-buttons">
-                <a
-                  href="#programs"
-                  class="btn btn-primary btn-lg me-3 magical-button"
-                  >🎪 プログラムを見る</a
-                >
-                <a
-                  href="#contact"
-                  class="btn btn-outline-primary btn-lg magical-button-outline"
-                  >🎁 無料体験申し込み</a
-                >
-              </div>
-              <div class="hero-stats mt-4">
-                <div class="row">
-                  <div class="col-4">
-                    <div class="stat-item fun-stat">
-                      <h3 class="stat-number" data-count="500">0</h3>
-                      <p class="stat-label">👦👧 生徒数</p>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="stat-item fun-stat">
-                      <h3 class="stat-number" data-count="15">0</h3>
-                      <p class="stat-label">🏆 年の実績</p>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="stat-item fun-stat">
-                      <h3 class="stat-number" data-count="98">0</h3>
-                      <p class="stat-label">😊 %満足度</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-image animate__animated animate__fadeInRight">
-              <video
-                src="1-tate.mp4"
-                alt="子供たちが学習している様子"
-                class="img-fluid rounded-3 shadow-lg"
-                autoplay
-                loop
-                muted
-                playsinline
-              ></video>
-              <div class="floating-card magical-card">
-                <i class="fas fa-star text-warning spinning-star"></i>
-                <span>🎉 楽しく学習中！ 🎉</span>
-              </div>
-              <div class="floating-emoji emoji-1">🌟</div>
-              <div class="floating-emoji emoji-2">🎈</div>
-              <div class="floating-emoji emoji-3">🦄</div>
-              <div class="floating-emoji emoji-4">🌈</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hero-decoration">
-        <div class="decoration-circle circle-1 magical-circle"></div>
-        <div class="decoration-circle circle-2 magical-circle"></div>
-        <div class="decoration-circle circle-3 magical-circle"></div>
-        <div class="decoration-star star-1">⭐</div>
-        <div class="decoration-star star-2">✨</div>
-        <div class="decoration-star star-3">🌟</div>
-        <div class="decoration-star star-4">💫</div>
-      </div>
-
-      <div class="click-effects"></div>
-    </section>
-
-    <section id="programs" class="programs-section colorful-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <h2 class="section-title rainbow-text-animated">
-              🎪 学習プログラム 🎪
-            </h2>
-            <p class="section-subtitle">
+  <section id="home" class="hero-section"
+    style="padding-top: 100px;background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);">
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-6">
+          <div class="hero-content animate__animated animate__fadeInLeft">
+            <h1 class="hero-title rainbow-text-animated">
+              🌈 お子様の<span class="sparkle-text">未来</span>を<br />一緒に築きましょう ✨
+            </h1>
+            <p class="hero-subtitle bounce-in-text">
               🎯
-              お子様の年齢や目標に合わせた魔法のようなプログラムをご用意しています
+              楽しく学べる魔法の環境で、お子様の可能性を最大限に引き出します！🚀
+              個別指導から集団学習まで、ワクワクするプログラムをご用意しています。
+            </p>
+            <div class="hero-buttons">
+              <a href="#programs" class="btn btn-primary btn-lg me-3 magical-button">🎪 プログラムを見る</a>
+              <a href="#contact" class="btn btn-outline-primary btn-lg magical-button-outline">🎁 無料体験申し込み</a>
+            </div>
+            <div class="hero-stats mt-4">
+              <div class="row px-2">
+                <div class="col-4 px-1">
+                  <div class="stat-item fun-stat">
+                    <h3 class="stat-number" data-count="500">0</h3>
+                    <p class="stat-label">👦 生徒数</p>
+                  </div>
+                </div>
+                <div class="col-4 px-1">
+                  <div class="stat-item fun-stat">
+                    <h3 class="stat-number" data-count="15">0</h3>
+                    <p class="stat-label">🏆 年の実績</p>
+                  </div>
+                </div>
+                <div class="col-4 px-1">
+                  <div class="stat-item fun-stat">
+                    <h3 class="stat-number" data-count="98">0</h3>
+                    <p class="stat-label">😊 %満足度</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-image animate__animated animate__fadeInRight">
+            <video src="1-tate.mp4" alt="子供たちが学習している様子" class="img-fluid rounded-3 shadow-lg" autoplay loop muted
+              playsinline></video>
+            <div class="floating-card magical-card">
+              <i class="fas fa-star text-warning spinning-star"></i>
+              <span>🎉 楽しく学習中！ 🎉</span>
+            </div>
+            <div class="floating-emoji emoji-1">🌟</div>
+            <div class="floating-emoji emoji-2">🎈</div>
+            <div class="floating-emoji emoji-3">🦄</div>
+            <div class="floating-emoji emoji-4">🌈</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-decoration">
+      <div class="decoration-circle circle-1 magical-circle"></div>
+      <div class="decoration-circle circle-2 magical-circle"></div>
+      <div class="decoration-circle circle-3 magical-circle"></div>
+      <div class="decoration-star star-1">⭐</div>
+      <div class="decoration-star star-2">✨</div>
+      <div class="decoration-star star-3">🌟</div>
+      <div class="decoration-star star-4">💫</div>
+    </div>
+
+    <div class="click-effects"></div>
+  </section>
+
+  <section id="programs" class="programs-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title rainbow-text">
+            🎪 学習プログラム 🎪
+          </h2>
+          <p class="section-subtitle">
+            🎯
+            お子様の年齢や目標に合わせた魔法のようなプログラムをご用意しています
+            ✨
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="program-card magical-card-hover">
+            <div class="program-icon rainbow-icon">
+              <i class="fas fa-baby"></i>
+            </div>
+            <h4>🧸 幼児コース（3-6歳）</h4>
+            <p>
+              🎮
+              遊びを通じて学ぶ楽しさを発見！基本的な数字、文字、社会性を育みます。
+            </p>
+            <ul class="program-features">
+              <li>🎯 遊び中心の学習</li>
+              <li>🌱 基礎能力の育成</li>
+              <li>👫 社会性の発達</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary magical-button-small">🔍 詳細を見る</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="program-card featured magical-card-hover special-glow">
+            <div class="program-badge rainbow-badge">🔥 人気</div>
+            <div class="program-icon rainbow-icon">
+              <i class="fas fa-child"></i>
+            </div>
+            <h4>🎒 小学生コース（6-12歳）</h4>
+            <p>
+              📖
+              学校の勉強をサポートしながら、創造性と論理的思考力を伸ばします！
+            </p>
+            <ul class="program-features">
+              <li>🏫 学校授業サポート</li>
+              <li>🎨 創造性の育成</li>
+              <li>🧠 論理的思考力</li>
+            </ul>
+            <a href="#" class="btn btn-primary magical-button-small">🚀 詳細を見る</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="program-card magical-card-hover">
+            <div class="program-icon rainbow-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h4>🎓 中学生コース（12-15歳）</h4>
+            <p>
+              📝
+              受験対策と将来への準備を両立！個別指導で確実な成長を支援します。
+            </p>
+            <ul class="program-features">
+              <li>📚 受験対策</li>
+              <li>👨‍🏫 個別指導</li>
+              <li>🌟 将来設計</li>
+            </ul>
+            <a href="#" class="btn btn-outline-primary magical-button-small">🎯 詳細を見る</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <h3 class="mb-4 sparkle-text">✨ 特別プログラム ✨</h3>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="special-program magical-special-card">
+            <i class="fas fa-palette rainbow-icon-small"></i>
+            <h5>🎨 アート教室</h5>
+            <p>🖌️ 創造力を育む美術プログラム</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="special-program magical-special-card">
+            <i class="fas fa-music rainbow-icon-small"></i>
+            <h5>🎵 音楽教室</h5>
+            <p>🎶 リズム感と表現力を身につける</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="special-program magical-special-card">
+            <i class="fas fa-laptop-code rainbow-icon-small"></i>
+            <h5>💻 プログラミング</h5>
+            <p>🤖 論理的思考力を養うコーディング</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="special-program magical-special-card">
+            <i class="fas fa-comments rainbow-icon-small"></i>
+            <h5>🌍 英会話</h5>
+            <p>🗣️ グローバル社会に対応する語学力</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section py-5 gradient-bg">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="about-content">
+            <h2 class="section-title rainbow-text">
+              🌟 私たちの使命 🌟
+            </h2>
+            <p class="lead">
               ✨
+              一人ひとりの子どもが持つ無限の可能性を信じ、その才能を最大限に引き出すことが私たちの使命です。
             </p>
-          </div>
-        </div>
+            <p>
+              🎯
+              15年にわたり、500人以上のお子様の成長を見守ってきました。私たちは単なる学習塾ではありません。お子様の心の成長、創造性の発達、そして将来への夢を育む魔法の場所です。🏰
+            </p>
 
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6">
-            <div class="program-card magical-card-hover">
-              <div class="program-icon rainbow-icon">
-                <i class="fas fa-baby"></i>
+            <div class="about-features mt-4">
+              <div class="feature-item magical-feature">
+                <i class="fas fa-heart text-danger"></i>
+                <div>
+                  <h5>💖 愛情あふれる指導</h5>
+                  <p>🤗 一人ひとりに寄り添った温かい指導を心がけています</p>
+                </div>
               </div>
-              <h4>🧸 幼児コース（3-6歳）</h4>
-              <p>
-                🎮
-                遊びを通じて学ぶ楽しさを発見！基本的な数字、文字、社会性を育みます。
-              </p>
-              <ul class="program-features">
-                <li>🎯 遊び中心の学習</li>
-                <li>🌱 基礎能力の育成</li>
-                <li>👫 社会性の発達</li>
-              </ul>
-              <a href="#" class="btn btn-outline-primary magical-button-small"
-                >🔍 詳細を見る</a
-              >
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="program-card featured magical-card-hover special-glow">
-              <div class="program-badge rainbow-badge">🔥 人気</div>
-              <div class="program-icon rainbow-icon">
-                <i class="fas fa-child"></i>
+              <div class="feature-item magical-feature">
+                <i class="fas fa-lightbulb text-warning"></i>
+                <div>
+                  <h5>💡 創造性を重視</h5>
+                  <p>🧠 答えを教えるのではなく、考える力を育みます</p>
+                </div>
               </div>
-              <h4>🎒 小学生コース（6-12歳）</h4>
-              <p>
-                📖
-                学校の勉強をサポートしながら、創造性と論理的思考力を伸ばします！
-              </p>
-              <ul class="program-features">
-                <li>🏫 学校授業サポート</li>
-                <li>🎨 創造性の育成</li>
-                <li>🧠 論理的思考力</li>
-              </ul>
-              <a href="#" class="btn btn-primary magical-button-small"
-                >🚀 詳細を見る</a
-              >
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="program-card magical-card-hover">
-              <div class="program-icon rainbow-icon">
-                <i class="fas fa-user-graduate"></i>
+              <div class="feature-item magical-feature">
+                <i class="fas fa-users text-primary"></i>
+                <div>
+                  <h5>👥 コミュニティ形成</h5>
+                  <p>🤝 仲間との協力を通じて社会性を身につけます</p>
+                </div>
               </div>
-              <h4>🎓 中学生コース（12-15歳）</h4>
-              <p>
-                📝
-                受験対策と将来への準備を両立！個別指導で確実な成長を支援します。
-              </p>
-              <ul class="program-features">
-                <li>📚 受験対策</li>
-                <li>👨‍🏫 個別指導</li>
-                <li>🌟 将来設計</li>
-              </ul>
-              <a href="#" class="btn btn-outline-primary magical-button-small"
-                >🎯 詳細を見る</a
-              >
             </div>
           </div>
         </div>
-
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <h3 class="mb-4 sparkle-text">✨ 特別プログラム ✨</h3>
-          </div>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-lg-3 col-md-6">
-            <div class="special-program magical-special-card">
-              <i class="fas fa-palette rainbow-icon-small"></i>
-              <h5>🎨 アート教室</h5>
-              <p>🖌️ 創造力を育む美術プログラム</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="special-program magical-special-card">
-              <i class="fas fa-music rainbow-icon-small"></i>
-              <h5>🎵 音楽教室</h5>
-              <p>🎶 リズム感と表現力を身につける</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="special-program magical-special-card">
-              <i class="fas fa-laptop-code rainbow-icon-small"></i>
-              <h5>💻 プログラミング</h5>
-              <p>🤖 論理的思考力を養うコーディング</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="special-program magical-special-card">
-              <i class="fas fa-comments rainbow-icon-small"></i>
-              <h5>🌍 英会話</h5>
-              <p>🗣️ グローバル社会に対応する語学力</p>
+        <div class="col-lg-6">
+          <div class="about-image">
+            <video src="3-tate.mp4" alt="先生と生徒たち" class="img-fluid rounded-3 shadow-lg" autoplay loop muted
+              playsinline></video>
+            <div class="about-highlight magical-highlight">
+              <h4>🏆 15年の実績</h4>
+              <p>💝 信頼と愛情で子どもたちを育てています</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="about" class="about-section py-5 gradient-bg">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="about-content">
-              <h2 class="section-title rainbow-text-animated">
-                🌟 私たちの使命 🌟
-              </h2>
-              <p class="lead">
-                ✨
-                一人ひとりの子どもが持つ無限の可能性を信じ、その才能を最大限に引き出すことが私たちの使命です。
-              </p>
-              <p>
-                🎯
-                15年にわたり、500人以上のお子様の成長を見守ってきました。私たちは単なる学習塾ではありません。お子様の心の成長、創造性の発達、そして将来への夢を育む魔法の場所です。🏰
-              </p>
-
-              <div class="about-features mt-4">
-                <div class="feature-item magical-feature">
-                  <i class="fas fa-heart text-danger"></i>
-                  <div>
-                    <h5>💖 愛情あふれる指導</h5>
-                    <p>🤗 一人ひとりに寄り添った温かい指導を心がけています</p>
-                  </div>
-                </div>
-                <div class="feature-item magical-feature">
-                  <i class="fas fa-lightbulb text-warning"></i>
-                  <div>
-                    <h5>💡 創造性を重視</h5>
-                    <p>🧠 答えを教えるのではなく、考える力を育みます</p>
-                  </div>
-                </div>
-                <div class="feature-item magical-feature">
-                  <i class="fas fa-users text-primary"></i>
-                  <div>
-                    <h5>👥 コミュニティ形成</h5>
-                    <p>🤝 仲間との協力を通じて社会性を身につけます</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="about-image">
-              <video
-                src="3-tate.mp4"
-                alt="先生と生徒たち"
-                class="img-fluid rounded-3 shadow-lg"
-                autoplay
-                loop
-                muted
-                playsinline
-              ></video>
-              <div class="about-highlight magical-highlight">
-                <h4>🏆 15年の実績</h4>
-                <p>💝 信頼と愛情で子どもたちを育てています</p>
-              </div>
-            </div>
-          </div>
+  <section id="testimonials" class="testimonials-section py-5 starry-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title rainbow-text">
+            ⭐ 保護者様の声 ⭐
+          </h2>
+          <p class="section-subtitle">
+            🎉
+            実際にご利用いただいている保護者様からの喜びの声をお聞きください
+            🎉
+          </p>
         </div>
       </div>
-    </section>
 
-    <section id="testimonials" class="testimonials-section py-5 starry-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <h2 class="section-title rainbow-text-animated">
-              ⭐ 保護者様の声 ⭐
-            </h2>
-            <p class="section-subtitle">
-              🎉
-              実際にご利用いただいている保護者様からの喜びの声をお聞きください
-              🎉
-            </p>
+      <div class="row">
+        <div class="col-12 position-relative">
+          <div
+            style="position: absolute;background-image: url(bg-flow.png);width: 300px;height: 200px;top: calc(95% - 200px);background-size: cover;z-index: 100;left: calc(70% - 200px);">
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12 position-relative">
-            <div
-              id="testimonialCarousel"
-              class="carousel slide magical-carousel"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                      <div class="testimonial-card magical-testimonial">
-                        <div class="stars mb-3">
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                        </div>
-                        <blockquote>
-                          「🌟
-                          息子が勉強を嫌がることがなくなりました！毎日『今日はセンターに行く日？』と楽しみにしています。先生方の愛情深い指導のおかげで、成績も上がり、何より学ぶ楽しさを知ることができました。✨」
-                        </blockquote>
-                        <div class="testimonial-author">
-                          <img
-                            src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100"
-                            alt="保護者様"
-                            class="author-image"
-                          />
-                          <div>
-                            <h6>👩 田中美咲様</h6>
-                            <p>👦 小学4年生 太郎くんのお母様</p>
-                          </div>
-                        </div>
+          <div id="testimonialCarousel" class="carousel slide magical-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="testimonial-card magical-testimonial">
+                      <div class="stars mb-3">
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                      <div class="testimonial-card magical-testimonial">
-                        <div class="stars mb-3">
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                        </div>
-                        <blockquote>
-                          「🎨
-                          娘の創造性がとても豊かになりました！アート教室やプログラミングクラスを通じて、新しい才能を発見できました。個別指導も充実していて、娘のペースに合わせてくれるので安心です。💖」
-                        </blockquote>
-                        <div class="testimonial-author">
-                          <img
-                            src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=100"
-                            alt="保護者様"
-                            class="author-image"
-                          />
-                          <div>
-                            <h6>👨 佐藤健一様</h6>
-                            <p>👧 小学6年生 花子ちゃんのお父様</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                      <div class="testimonial-card magical-testimonial">
-                        <div class="stars mb-3">
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                          <i
-                            class="fas fa-star text-warning twinkling-star"
-                          ></i>
-                        </div>
-                        <blockquote>
-                          「📚
-                          中学受験をとても不安に思っていましたが、こちらのセンターのおかげで息子は自信を持って挑戦することができました！結果的に第一志望校に合格！感謝の気持ちでいっぱいです。🎉」
-                        </blockquote>
-                        <div class="testimonial-author">
-                          <img
-                            src="https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=100"
-                            alt="保護者様"
-                            class="author-image"
-                          />
-                          <div>
-                            <h6>👩 山田理恵様</h6>
-                            <p>👦 中学1年生 翔太くんのお母様</p>
-                          </div>
+                      <blockquote>
+                        「🌟
+                        息子が勉強を嫌がることがなくなりました！毎日『今日はセンターに行く日？』と楽しみにしています。先生方の愛情深い指導のおかげで、成績も上がり、何より学ぶ楽しさを知ることができました。✨」
+                      </blockquote>
+                      <div class="testimonial-author">
+                        <img
+                          src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100"
+                          alt="保護者様" class="author-image" />
+                        <div>
+                          <h6>👩 田中美咲様</h6>
+                          <p>👦 小学4年生 太郎くんのお母様</p>
                         </div>
                       </div>
                     </div>
@@ -491,271 +348,258 @@
                 </div>
               </div>
 
-              <button
-                class="carousel-control-prev magical-carousel-btn"
-                type="button"
-                data-bs-target="#testimonialCarousel"
-                data-bs-slide="prev"
-              >
-                <i class="fas fa-chevron-left"></i>
-              </button>
-              <button
-                class="carousel-control-next magical-carousel-btn"
-                type="button"
-                data-bs-target="#testimonialCarousel"
-                data-bs-slide="next"
-              >
-                <i class="fas fa-chevron-right"></i>
-              </button>
-
-              <div class="carousel-indicators magical-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#testimonialCarousel"
-                  data-bs-slide-to="0"
-                  class="active"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#testimonialCarousel"
-                  data-bs-slide-to="1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#testimonialCarousel"
-                  data-bs-slide-to="2"
-                ></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact-section py-5 rainbow-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <h2 class="section-title rainbow-text-animated">
-              📞 お問い合わせ 📞
-            </h2>
-            <p class="section-subtitle">
-              🎁 無料体験授業も随時受付中！お気軽にご連絡ください 🎁
-            </p>
-          </div>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-lg-8">
-            <div class="contact-form magical-form">
-              <form id="contactForm">
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label for="parentName" class="form-label"
-                      >👨‍👩‍👧‍👦 保護者様のお名前
-                      <span class="text-danger">*</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control magical-input"
-                      id="parentName"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="childName" class="form-label"
-                      >👶 お子様のお名前
-                      <span class="text-danger">*</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control magical-input"
-                      id="childName"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="email" class="form-label"
-                      >📧 メールアドレス
-                      <span class="text-danger">*</span></label
-                    >
-                    <input
-                      type="email"
-                      class="form-control magical-input"
-                      id="email"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="phone" class="form-label">📱 電話番号</label>
-                    <input
-                      type="tel"
-                      class="form-control magical-input"
-                      id="phone"
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="childAge" class="form-label"
-                      >🎂 お子様の年齢 <span class="text-danger">*</span></label
-                    >
-                    <select
-                      class="form-select magical-input"
-                      id="childAge"
-                      required
-                    >
-                      <option value="">選択してください</option>
-                      <option value="3">3歳</option>
-                      <option value="4">4歳</option>
-                      <option value="5">5歳</option>
-                      <option value="6">6歳</option>
-                      <option value="7">7歳</option>
-                      <option value="8">8歳</option>
-                      <option value="9">9歳</option>
-                      <option value="10">10歳</option>
-                      <option value="11">11歳</option>
-                      <option value="12">12歳</option>
-                      <option value="13">13歳</option>
-                      <option value="14">14歳</option>
-                      <option value="15">15歳</option>
-                    </select>
-                  </div>
-                  <div class="col-md-6">
-                    <label for="program" class="form-label"
-                      >🎯 ご希望のプログラム</label
-                    >
-                    <select class="form-select magical-input" id="program">
-                      <option value="">選択してください</option>
-                      <option value="幼児コース">幼児コース</option>
-                      <option value="小学生コース">小学生コース</option>
-                      <option value="中学生コース">中学生コース</option>
-                      <option value="アート教室">アート教室</option>
-                      <option value="音楽教室">音楽教室</option>
-                      <option value="プログラミング">プログラミング</option>
-                      <option value="英会話">英会話</option>
-                    </select>
-                  </div>
-                  <div class="col-12">
-                    <label for="message" class="form-label"
-                      >💭 ご質問・ご要望</label
-                    >
-                    <textarea
-                      class="form-control magical-input"
-                      id="message"
-                      rows="4"
-                      placeholder="お子様の性格や学習状況、ご質問などお気軽にお書きください"
-                    ></textarea>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input magical-checkbox"
-                        type="checkbox"
-                        id="trialClass"
-                      />
-                      <label class="form-check-label" for="trialClass">
-                        🎁 無料体験授業を希望します
-                      </label>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="testimonial-card magical-testimonial">
+                      <div class="stars mb-3">
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                      </div>
+                      <blockquote>
+                        「🎨
+                        娘の創造性がとても豊かになりました！アート教室やプログラミングクラスを通じて、新しい才能を発見できました。個別指導も充実していて、娘のペースに合わせてくれるので安心です。💖」
+                      </blockquote>
+                      <div class="testimonial-author">
+                        <img
+                          src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=100"
+                          alt="保護者様" class="author-image" />
+                        <div>
+                          <h6>👨 佐藤健一様</h6>
+                          <p>👧 小学6年生 花子ちゃんのお父様</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <button
-                      type="submit"
-                      class="btn btn-primary btn-lg magical-submit-btn"
-                    >
-                      🚀 お問い合わせを送信
-                    </button>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="testimonial-card magical-testimonial">
+                      <div class="stars mb-3">
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                        <i class="fas fa-star text-warning twinkling-star"></i>
+                      </div>
+                      <blockquote>
+                        「📚
+                        中学受験をとても不安に思っていましたが、こちらのセンターのおかげで息子は自信を持って挑戦することができました！結果的に第一志望校に合格！感謝の気持ちでいっぱいです。🎉」
+                      </blockquote>
+                      <div class="testimonial-author">
+                        <img
+                          src="https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=100"
+                          alt="保護者様" class="author-image" />
+                        <div>
+                          <h6>👩 山田理恵様</h6>
+                          <p>👦 中学1年生 翔太くんのお母様</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </form>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4">
-            <div class="contact-info magical-contact-info">
-              <div class="contact-item magical-contact-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <div>
-                  <h5>🏠 住所</h5>
-                  <p>
-                    📍 〒150-0001<br />東京都渋谷区神宮前1-1-1<br />こども学習センタービル
-                    3F
-                  </p>
-                </div>
-              </div>
+            <button class="carousel-control-prev magical-carousel-btn" type="button"
+              data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-control-next magical-carousel-btn" type="button"
+              data-bs-target="#testimonialCarousel" data-bs-slide="next">
+              <i class="fas fa-chevron-right"></i>
+            </button>
 
-              <div class="contact-item magical-contact-item">
-                <i class="fas fa-phone"></i>
-                <div>
-                  <h5>📞 電話番号</h5>
-                  <p>☎️ 03-1234-5678</p>
-                  <small>⏰ 受付時間: 平日 9:00-18:00</small>
-                </div>
-              </div>
-
-              <div class="contact-item magical-contact-item">
-                <i class="fas fa-envelope"></i>
-                <div>
-                  <h5>📧 メールアドレス</h5>
-                  <p>✉️ info@kodomo-center.jp</p>
-                </div>
-              </div>
-
-              <div class="contact-item magical-contact-item">
-                <i class="fas fa-clock"></i>
-                <div>
-                  <h5>🕐 営業時間</h5>
-                  <p>
-                    📅 月〜金: 9:00-19:00<br />土: 9:00-17:00<br />日・祝: 休み
-                  </p>
-                </div>
-              </div>
-
-              <div class="social-links mt-4">
-                <h5>📱 SNS</h5>
-                <a href="#" class="social-link facebook magical-social"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-                <a href="#" class="social-link twitter magical-social"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#" class="social-link instagram magical-social"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#" class="social-link youtube magical-social"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-              </div>
+            <div class="carousel-indicators magical-indicators">
+              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer-section py-4 magical-footer">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <p class="mb-0">
-              ✨ &copy; 2025 こども学習センター. All rights reserved. ✨
-            </p>
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title rainbow-text">
+            📞 お問い合わせ 📞
+          </h2>
+          <p class="section-subtitle">
+            🎁 無料体験授業も随時受付中！お気軽にご連絡ください 🎁
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <div class="contact-form magical-form">
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="parentName" class="form-label">👨‍👩‍👧‍👦 保護者様のお名前
+                    <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control magical-input" id="parentName" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="childName" class="form-label">👶 お子様のお名前
+                    <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control magical-input" id="childName" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">📧 メールアドレス
+                    <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control magical-input" id="email" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">📱 電話番号</label>
+                  <input type="tel" class="form-control magical-input" id="phone" />
+                </div>
+                <div class="col-md-6">
+                  <label for="childAge" class="form-label">🎂 お子様の年齢 <span class="text-danger">*</span></label>
+                  <select class="form-select magical-input" id="childAge" required>
+                    <option value="">選択してください</option>
+                    <option value="3">3歳</option>
+                    <option value="4">4歳</option>
+                    <option value="5">5歳</option>
+                    <option value="6">6歳</option>
+                    <option value="7">7歳</option>
+                    <option value="8">8歳</option>
+                    <option value="9">9歳</option>
+                    <option value="10">10歳</option>
+                    <option value="11">11歳</option>
+                    <option value="12">12歳</option>
+                    <option value="13">13歳</option>
+                    <option value="14">14歳</option>
+                    <option value="15">15歳</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="program" class="form-label">🎯 ご希望のプログラム</label>
+                  <select class="form-select magical-input" id="program">
+                    <option value="">選択してください</option>
+                    <option value="幼児コース">幼児コース</option>
+                    <option value="小学生コース">小学生コース</option>
+                    <option value="中学生コース">中学生コース</option>
+                    <option value="アート教室">アート教室</option>
+                    <option value="音楽教室">音楽教室</option>
+                    <option value="プログラミング">プログラミング</option>
+                    <option value="英会話">英会話</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">💭 ご質問・ご要望</label>
+                  <textarea class="form-control magical-input" id="message" rows="4"
+                    placeholder="お子様の性格や学習状況、ご質問などお気軽にお書きください"></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input magical-checkbox" type="checkbox" id="trialClass" />
+                    <label class="form-check-label" for="trialClass">
+                      🎁 無料体験授業を希望します
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-6 col-lg-4 d-flex align-items-center bg-lightgray border border-lightgray p-2 rounded-2 shadow-sm">
+                  <div class="flex-grow-1">
+                    <input type="checkbox" style="width: 30px; height: 30px;margin-right: 10px;">
+                    <span class="fs-6">I'm not a robot</span>
+                  </div>
+                  <img src="captcha.jpg" width="60" height="60">
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg magical-submit-btn">
+                    🚀 お問い合わせを送信
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="col-md-6 text-md-end">
-            <a href="#" class="footer-link me-3 magical-footer-link"
-              >🔒 プライバシー</a
-            >
-            <a href="#" class="footer-link me-3 magical-footer-link"
-              >📋 利用規約</a
-            >
-            <a href="#" class="footer-link magical-footer-link"
-              >🗺️ サイトマップ</a
-            >
+        </div>
+
+        <div class="col-lg-4">
+          <div class="contact-info magical-contact-info">
+            <div class="contact-item magical-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h5>🏠 住所</h5>
+                <p>
+                  📍 〒150-0001<br />東京都渋谷区神宮前1-1-1<br />こども学習センタービル
+                  3F
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item magical-contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h5>📞 電話番号</h5>
+                <p>☎️ 03-1234-5678</p>
+                <small>⏰ 受付時間: 平日 9:00-18:00</small>
+              </div>
+            </div>
+
+            <div class="contact-item magical-contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h5>📧 メールアドレス</h5>
+                <p>✉️ info@kodomo-center.jp</p>
+              </div>
+            </div>
+
+            <div class="contact-item magical-contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h5>🕐 営業時間</h5>
+                <p>
+                  📅 月〜金: 9:00-19:00<br />土: 9:00-17:00<br />日・祝: 休み
+                </p>
+              </div>
+            </div>
+
+            <div class="social-links mt-4">
+              <h5>📱 SNS</h5>
+              <a href="#" class="social-link facebook magical-social"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-link twitter magical-social"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link instagram magical-social"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link youtube magical-social"><i class="fab fa-youtube"></i></a>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <footer class="footer-section py-4 magical-footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="mb-0">
+            ✨ &copy; 2025 こども学習センター. All rights reserved. ✨
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="footer-link me-3 magical-footer-link">🔒 プライバシー</a>
+          <a href="#" class="footer-link me-3 magical-footer-link">📋 利用規約</a>
+          <a href="#" class="footer-link magical-footer-link">🗺️ サイトマップ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
